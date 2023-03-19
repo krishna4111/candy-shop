@@ -29,6 +29,8 @@ function shoeExpences(obj){
     
 
     const deleteBtn=document.createElement('input');
+    deleteBtn.setAttribute('class','btn btn-danger');
+    deleteBtn.style.cssText="margin-left:15px; margin-right:15px; margin-top:5px; padding:2px"
     deleteBtn.type='button';
     deleteBtn.value='Delete';
     deleteBtn.onclick= ()=>{
@@ -37,6 +39,8 @@ function shoeExpences(obj){
     }  
 
     const edit=document.createElement('input');
+    edit.setAttribute('class','btn btn-success');
+    edit.style.cssText="padding:2px;  margin-top:5px;"
     edit.value='Edit';
     edit.type='button';
     edit.onclick=()=>{
